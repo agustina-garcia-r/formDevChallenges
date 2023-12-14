@@ -41,23 +41,54 @@ document.addEventListener('DOMContentLoaded', function () {
         boton3Clicked = true;
     });
 
-    botoncito.addEventListener('click', function () {
-        if (boton1Clicked || boton2Clicked || boton3Clicked) {
-            window.location.href = 'index3.html';
-        } else {
-            if (!alertaOpciones) {
-                alertaOpciones = document.createElement('p');
-                alertaOpciones.textContent = 'Tenés que seleccionar una opción!';
-                alertaOpciones.style.color = 'white';
-                alertaOpciones.style.fontFamily = "Inter,sans-serif";
-                alertaOpciones.style.fontSize = "small";
-                alertaOpciones.style.marginLeft = "110px";
-                alertaOpciones.style.marginTop = "20px";
-                alertaOpciones.style.marginBottom = "5px";
-                divopciones.appendChild(alertaOpciones);
-            } 
+
+function ValidacionOpciones() {
+    if (boton1Clicked || boton2Clicked || boton3Clicked) {
+        window.location.href = 'index3.html';
+    } else {
+        if (!alertaOpciones) {
+            alertaOpciones = document.createElement('p');
+            alertaOpciones.textContent = 'Tenés que seleccionar una opción!';
+            alertaOpciones.style.color = 'white';
+            alertaOpciones.style.fontFamily = "Inter,sans-serif";
+            alertaOpciones.style.fontSize = "small";
+            alertaOpciones.style.marginLeft = "110px";
+            alertaOpciones.style.marginTop = "20px";
+            alertaOpciones.style.marginBottom = "5px";
+            divopciones.appendChild(alertaOpciones);
+        } else if (alertaOpciones) {
+            divopciones.removeChild(alertaOpciones);
         }
+    }
+
+
+}
+
+
+
+    botoncito.addEventListener('click', function () {
+        ValidacionOpciones();
     });
+
+
+
+  
+    radio3.addEventListener('click', function () {
+        ValidacionOpciones();
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 
