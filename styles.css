@@ -24,7 +24,7 @@ border-width: 1px;
     color: #b2bed1;
 } 
 
-#Registro, #summary {
+#Registro, #summary, #topick {
     font-family: 'Inter', sans-serif;
 margin-left: 40px;
 color: #E5E7EB;
