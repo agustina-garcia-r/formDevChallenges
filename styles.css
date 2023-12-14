@@ -1,0 +1,228 @@
+body {
+    background-color: #121826;
+background-image: url('blur-radial.svg');
+}
+
+
+#Container {
+    margin-left: 420px;
+    margin-top: 182px;
+    margin-bottom: 182px;
+width: 440px;
+height: 430px;
+background-color: #212936;
+border-color: #4D5562;
+border-radius: 15px;
+border-style: solid;
+border-width: 1px;
+}
+
+ .foo
+{
+    text-align: left;
+    padding-left: 16px; 
+    color: #b2bed1;
+} 
+
+#Registro, #summary {
+    font-family: 'Inter', sans-serif;
+margin-left: 40px;
+color: #E5E7EB;
+font-size: 20px;
+font-weight: lighter !important;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#Nombrecito {
+    font-family: 'Inter', sans-serif;
+    margin-left: 1px;
+    color: #E5E7EB;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+#NombreInput {
+width: 330px;
+height: 44px;
+margin-left: 1px;
+margin-right: 40px;
+border-radius: 15px;
+border-color: #4D5562;
+border-style: solid;
+border-width: 2px;
+background-color:#212936;
+}
+
+#emailcito {
+    font-family: 'Inter', sans-serif;
+    margin-left: 40px;
+    color: #E5E7EB;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+#EmailInput {
+    width: 330px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    border-color: #4D5562;
+    border-style: solid;
+    border-width: 2px;
+    background-color:#212936;
+    }
+
+     #EmailInput::placeholder {
+        color: #4D5562;
+    } 
+
+     #NombreInput::placeholder {
+        color: #4D5562;
+    } 
+
+    #Botoncito {
+margin-top: 30px;
+margin-left: 163px;
+height: 40px;
+width: 125px;
+border-radius: 30px;
+background-image: linear-gradient(to bottom, #845EEE , #652CD1);
+border: none;
+color: #E5E7EB;
+cursor: pointer;
+    }
+
+#stepstext {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    margin-left: 40px;
+    color: #E5E7EB;
+    font-size: 11px;
+    font-weight: lighter;
+    bottom: 150px;
+    left: 490px;
+    color: #A1A1A9;
+}
+
+
+
+
+#Step1,#Step2, #Step3 {
+    position: relative;
+    bottom: 193px;
+    left: 610px;
+    cursor: pointer;
+    appearance: none;
+    margin: 4;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+  }
+
+  #Step3 {
+    background-color:#A1A1A9;
+  }
+
+#topic {
+    font-family: 'Inter', sans-serif;
+margin-left: 40px;
+color: #E5E7EB;
+font-size: 20px;
+font-weight: lighter !important;
+margin-top: 40px;
+}
+
+
+#Opcionnumero1 , #Opcionnumero2, #Opcionnumero3 {
+    width: 360px;
+    height: 44px;
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    border-color: #4D5562;
+    border-style: solid;
+    border-width: 2px;
+    background-color:#212936;
+    cursor: pointer;
+   color: #A1A1A9;
+   font-family: 'Inter', sans-serif;
+}
+
+#Opcionnumero1:hover, #Opcionnumero2:hover, #Opcionnumero3:hover {
+color: #E5E7EB;
+    background-color: #652CD1;
+}
+
+#name {
+font-family: 'inter';
+    color: #A1A1A9;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+#email {
+    font-family: 'inter';
+    color: #A1A1A9;
+    margin-left: 40px;
+    position: relative;
+    top:-45px;
+}
+
+
+#nombredelstorage {
+    font-family: 'inter';
+    color: #E5E7EB;
+    margin-left: 95px;
+    position: relative;
+    top: -36px;
+
+}
+
+#emaildelstorage {
+    font-family: 'inter';
+    color: #E5E7EB;
+    margin-left: 95px;
+    position: relative;
+    top:-82px;
+}
+
+#topic {
+font-size: 0.91em;
+font-weight: 450 !important;
+    font-family: 'inter';
+    color: #A1A1A9;
+    margin-left: 40px;
+    position: relative;
+    top:-82px;
+}
+
+#topic1, #topic2, #topic3 {
+    margin-left: 40px;
+    font-family: 'inter';
+    color: #E5E7EB;
+    position: relative;
+    top:-82px;
+}
+
+
+#Botoncitop {
+    position: relative;
+    top:-52px;
+    margin-left: 163px;
+    height: 40px;
+    width: 125px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #845EEE , #652CD1);
+    border: none;
+    color: #E5E7EB;
+    cursor: pointer;
+        }
+    
