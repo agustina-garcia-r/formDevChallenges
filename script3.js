@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const nombreInput = document.getElementById('NombreInput');
     const EmailInput = document.getElementById('EmailInput');
-    const botoncito = document.getElementById('Botoncito');
+    const botoncito = document.getElementById('Botoncitop');
     const radio1 = document.getElementById('Step1');
     const radio2 = document.getElementById('Step2');
     const radio3 = document.getElementById('Step3');
@@ -51,9 +51,27 @@ if (opcion3) {
 
 
 
+    const modal = document.getElementById('myModal');
+    const closeModalButton = document.getElementById('closeModal');
+
+    botoncito.addEventListener('click', function () {
+       
+        modal.style.display = 'block';
+    });
+
+    closeModalButton.addEventListener('click', function () {
+       
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+  
 
 
 
 
-
+});
 });
